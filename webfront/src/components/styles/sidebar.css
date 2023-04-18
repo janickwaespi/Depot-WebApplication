@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium&display=swap');
+
+.sidebar{
+  background: rgb(233, 232, 232);
+  color: rgb(20, 20, 20);
+  height: 100vh;
+  width: 220px;
+  transition: all 0.2s;
+}
+.container{
+  display:flex;
+}
+.top_section{
+  display: flex;
+  align-items:center;
+  padding:20px 15px;
+  padding-left: 13px;
+}
+.logo{
+  font-size: 25px;
+  font-family: 'Oxanium';
+}
+.burger{
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+}
+.burger-img:hover{
+  cursor: pointer;
+}
+.link{
+  font-family: 'Oxanium';
+  display: flex;
+  color: rgb(0, 0, 0);
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.3s;
+}
+.link:hover{
+  background:lightskyblue;
+  color: #000;
+  transition: all 0.3s;
+}
+.active{
+  background: lightskyblue;
+  color: #000;
+}
+.icon, .link_text{
+  font-size: 20px;
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "articleNumber": "esevse",
+    "name": "segg",
+    "weight": 108885,
+    "weightPerPiece": -136,
+    "calVal": 108963
+  },
+  {
+    "id": 2,
+    "articleNumber": "esvs",
+    "name": "seg",
+    "weight": 8248,
+    "weightPerPiece": 32,
+    "calVal": 8234
+  }
+]

@@ -1,0 +1,40 @@
+.depot-connection{
+    border: 2px solid transparent;
+    border-radius: 5px;
+    border-color: rgb(215, 215, 215);
+
+
+    width: 100%;
+    max-width: 300px;
+    height: 100px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.title-div{
+    display: flex;
+    margin-bottom: 10px;
+}
+.status-div{
+    display: flex;
+    margin-bottom: 20px;
+}
+.info-div{
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+}
+.calibrate-button{
+    background-color: rgb(208, 208, 208);
+    font-family: 'Oxanium';
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 80px;
+}
+.calibrate-button:hover{
+    background-color: lightskyblue;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+
